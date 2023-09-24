@@ -38,9 +38,10 @@ class Solution:
         for i in str_list:
             if str_len < len(i):
                 str_len = len(i)
-
+        print(str_list)
         return str_len
 
+# s = "dvdf"
 s = "dvdf"
 object1 = Solution()
 print(object1.lengthOfLongestSubstring(s))
