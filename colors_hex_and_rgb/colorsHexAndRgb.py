@@ -31,6 +31,8 @@ while True:
     except Exception as e:
         print(f'Error: {e}')
 
+print(rgbToHex(r, g, b))
+
 while True:
     try:
         hex_ = input('Enter the value hexadecimal in format (#000000): ')
@@ -39,5 +41,4 @@ while True:
     except Exception as e:
         print(f'Error: {e}')
 
-print(rgbToHex(r, g, b))
 print(hexToRgb(hex_))
